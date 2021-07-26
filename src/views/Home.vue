@@ -1,22 +1,61 @@
 <template>
-  <div class="text-center">
-    <img
-      alt="Vue logo"
-      class="mx-auto animate-bounce"
-      src="../assets/logo.png"
-    />
-    <p class="text-3xl text-gray-900">Well the templates works :)</p>
-    <p class="text-base mb-4 text-green-600">Build something great now</p>
-
-    <p class="text-base text-green-600">
-      if you encounter any issues with the template, please raise the
-      <a
-        class="text-gray-900 underline"
-        href="https://github.com/ilabafrica-IoTlab/vue3-starter-template/issues"
+  <div class="max-w-5xl h-full mx-auto mt-4 text-center">
+    <img class="h-10 mx-auto" src="../assets/img/racla-logo.png" alt="" />
+    <div class="relative mt-24">
+      <h2
+        class="
+          absolute
+          text-2xl
+          left-24
+          font-bold
+          transform
+          z-10
+          -rotate-20
+          text-white
+          e
+        "
+        style="left: 50%; top: 33%"
       >
-        issue on github</a
-      >
-    </p>
+        Heyyy
+      </h2>
+      <img
+        class="relative h-80 mx-auto"
+        src="../assets/img/welcome.svg"
+        alt="welcome image"
+      />
+    </div>
+    <h2 class="text-4xl font-bold mt-8">Connect with us</h2>
+    <div class="flex h-8 align-middle justify-around max-w-xs mx-auto mt-5">
+      <a href="https://www.facebook.com/RACLangata">
+        <img
+          class="h-8"
+          src="../assets/img/facebook-logo.png"
+          alt="Rotaract Lang'ata facebook page"
+          target="_blank"
+      /></a>
+      <a href="https://www.instagram.com/rotaractlangata/">
+        <img
+          class="h-8"
+          src="../assets/img/instagram-logo.png"
+          alt="Rotaract Lang'ata instagram page"
+          target="_blank"
+      /></a>
+      <a href="https://twitter.com/RotaractLangata">
+        <img
+          class="h-8"
+          src="../assets/img/twitter.png"
+          alt="Rotaract Lang'ata twitter page"
+          target="_blank"
+      /></a>
+      <a href="https://www.linkedin.com/company/rotaract-club-of-langata/">
+        <img
+          class="h-8"
+          src="../assets/img/linkedin.png"
+          alt="Rotaract Lang'ata linkedin page"
+          target="_blank"
+      /></a>
+    </div>
+    <p class="mt-28 text-sm text-pink-600">Site under construction</p>
   </div>
 </template>
 
